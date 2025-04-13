@@ -34,13 +34,15 @@ font-family: "Roboto",sans-serif;
   .section {
     padding: 120px 0px;
   }
+  .page-header {
+    border-bottom: 1px solid #e7e9fc
+  }
   .header-container {
     display: flex;
     align-items: center;
-  border-bottom: 1px solid #e7e9fc}
+  }
   .header-nav {
-    display: flex;
-    
+    display: flex;  
     margin-right: auto;
     align-items: center;
   }
@@ -79,6 +81,7 @@ font-family: "Roboto",sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    
     
    
   }
@@ -162,6 +165,7 @@ font-family: "Roboto",sans-serif;
   display: flex;
  }
  .visually-hidden {
+  overflow: hidden;
   
  }
 
@@ -213,7 +217,7 @@ font-family: "Roboto",sans-serif;
   margin-bottom: 72px;
 }
 .div.team-ihfo {
-  padding: 32px 0
+  padding: 32px 0;
 }
 .team-avatar {
   /* margin-bottom: 32px; */
@@ -274,7 +278,7 @@ font-family: "Roboto",sans-serif;
   margin-bottom: 32px;
 
 }
-.div.portfolio-info {
+.portfolio-info {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
