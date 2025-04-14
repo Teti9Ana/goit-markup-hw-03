@@ -228,18 +228,19 @@ font-family: "Roboto",sans-serif;
   margin-bottom: 72px;
 }
 
-.team-avatar {
-  /* margin-bottom: 32px; */
-}
+
 .team-list {
       display: flex;
-      gap: 24px;        
+      gap: 24px;
+      
 }
 .team-item {
-  border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
+    width: calc((100% - 3 * 24px) / 4);
+}
+.team-ihfo {
+  padding: 32px 0;
 }
 
 .team-list .team-item {
@@ -265,7 +266,8 @@ font-family: "Roboto",sans-serif;
 /* #endregion team */
 /* #regionOur Portfolio */
 .portfolio-section {
-  padding: 32px 16px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   border: 1px solid #e7e9fc;
 }
 .portfolio-container {
@@ -286,15 +288,11 @@ font-family: "Roboto",sans-serif;
       display: flex;
       gap: 24px;
       row-gap: 48px;
-      flex-wrap: wrap;
-      
-}
-.potrfolio-avatar {
-  margin-bottom: 32px;
-
+      flex-wrap: wrap;      
 }
 .portfolio-info {
-  
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .portfolio-item {
   display: block;
@@ -323,16 +321,16 @@ font-family: "Roboto",sans-serif;
 .footer-page {
   background-color: #2e2f42;
   padding: 100px 0;
+  
 }
 .footer-container {
-  display: flex;
-  flex-direction: column;
+flex-direction: column;
 }
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
   width: 115px;
-    height: 24px;
+  height: 24px;
   
 }
 .footer-text{
@@ -342,5 +340,4 @@ font-family: "Roboto",sans-serif;
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-    margin-bottom:  100px;
-}
+    }
