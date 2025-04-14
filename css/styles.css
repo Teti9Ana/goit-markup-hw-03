@@ -120,9 +120,7 @@ font-family: "Roboto",sans-serif;
   display: flex;
   align-items: center;
   flex-direction: column;
-  text-align: center;
-  height: 100vh;
-
+  text-align: center;  
 }
   .service-title {
     font-family: "Roboto", sans-serif;
@@ -132,8 +130,7 @@ font-family: "Roboto",sans-serif;
       letter-spacing: 0.02em;
       text-align: center;
       color: #fff;
-      display: flex;
-      padding-top: 188px;
+      display: flex;      
       margin-bottom: 48px;
       max-width: 496px;
             
@@ -214,9 +211,7 @@ font-family: "Roboto",sans-serif;
   background-color: #f4f4fd;  
 }
 .team-container {
-      display: flex;
-      flex-direction: column;
-      padding: 32px 0;
+    flex-direction: column;
 }
 .team-title {
   font-size: 36px;
@@ -236,7 +231,6 @@ font-family: "Roboto",sans-serif;
 }
 .team-item {
     border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
     width: calc((100% - 3 * 24px) / 4);
 }
 .team-ihfo {
@@ -297,10 +291,7 @@ font-family: "Roboto",sans-serif;
 }
 .portfolio-item {
   display: block;
-  border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
-  
+  width: calc(( 100% - 2 * 24px) / 3);
 }
 .portfolio-item-title {
   font-weight: 500;
